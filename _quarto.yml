@@ -1,0 +1,25 @@
+project:
+  type: manuscript
+  output-dir: docs
+
+title: "ESS Lab 9: Results and Disscussion Draft"
+
+manuscript:
+  article: index.qmd
+
+format:
+  html:
+    self-contained: true
+    comments:
+      hypothesis: true
+  docx: default
+  jats: default
+
+  # (other formats)
+  # pdf: default
+
+execute:
+  freeze: true
+
+
+
